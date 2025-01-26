@@ -1,0 +1,13 @@
+.cache
+.local/share/Steam
+.local/share/keyrings
+.local/share/Trash
+.steam
+.steampath
+.steampid
+.ssh
+.npm
+.nuget
+.gnupg
+.mozilla
+.hidden

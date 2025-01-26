@@ -1,0 +1,11 @@
+[Unit]
+Description=Run the backup script for the home folder
+
+[Timer]
+Unit=home-backup.service
+OnCalendar=*-*-* 4:00:00
+Persistent=true
+WakeSystem=true
+
+[Install]
+WantedBy=default.target
